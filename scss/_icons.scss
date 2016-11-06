@@ -63,7 +63,7 @@
 .eicon-rtl:before { content: '\e861'; } 
 .eicon-scroll:before { content: '\e862'; } 
 .eicon-search:before { content: '\e863'; } 
-.eicon-selec:before { content: '\e864'; } 
+.eicon-select:before { content: '\e864'; }
 .eicon-share:before { content: '\e865'; } 
 .eicon-sidebar:before { content: '\e866'; } 
 .eicon-skill-bar:before { content: '\e867'; } 
@@ -116,6 +116,9 @@
 .eicon-nerd:before { content: '\e914'; }
 .eicon-device-desktop:before { content: '\e915'; } 
 .eicon-device-tablet:before { content: '\e916'; } 
-.eicon-device-mobile:before { content: '\e917'; } 
+.eicon-device-mobile:before { content: '\e917'; }
+.eicon-document-file:before { content: '\e918'; }
+.eicon-folder:before { content: '\e919'; }
+.eicon-hypster:before { content: '\e920'; }
 
 // regex to remove comments: \/\*.*?\*\/
