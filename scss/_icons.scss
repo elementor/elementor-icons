@@ -120,13 +120,14 @@
 .eicon-document-file:before { content: '\e918'; }
 .eicon-folder:before { content: '\e919'; }
 .eicon-hypster:before { content: '\e920'; }
-.eicon-align-left:before { content: '\e921'; } 
-.eicon-align-right:before { content: '\e922'; } 
-.eicon-align-center:before { content: '\e923'; } 
-.eicon-align-stretch:before { content: '\e924'; } 
-.eicon-valign-top:before { content: '\e925'; } 
-.eicon-valign-bottom:before { content: '\e926'; } 
-.eicon-valign-middle:before { content: '\e927'; } 
-.eicon-valign-stretch:before { content: '\e928'; }
+.eicon-h-align-left:before { content: '\e921'; } 
+.eicon-h-align-right:before { content: '\e922'; } 
+.eicon-h-align-center:before { content: '\e923'; } 
+.eicon-h-align-stretch:before { content: '\e924'; } 
+.eicon-v-align-top:before { content: '\e925'; } 
+.eicon-v-align-bottom:before { content: '\e926'; } 
+.eicon-v-align-middle:before { content: '\e927'; } 
+.eicon-v-align-stretch:before { content: '\e928'; }
+.eicon-pro-icon:before { content: '\e929'; }
 
 // regex to remove comments: \/\*.*?\*\/
