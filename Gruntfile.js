@@ -14,6 +14,9 @@ module.exports = function( grunt ) {
 
 		sass: {
 			dist: {
+                options: {
+                    sourcemap: 'none'
+                },
 				files: [ {
 					expand: true,
 					cwd: 'scss',
@@ -40,8 +43,6 @@ module.exports = function( grunt ) {
 		postcss: {
 			dev: {
 				options: {
-					map: true,
-
 					processors: [
 						require( 'autoprefixer' )( {
 							browsers: 'last 2 versions'
