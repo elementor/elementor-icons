@@ -443,3 +443,9 @@
 
 .eicon-angle-left:before {
   content: '\e941'; }
+
+.eicon-floppy-o:before {
+  content: 'ea101'; }
+
+.eicon-times:before {
+  content: 'ea102'; }
