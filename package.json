@@ -1,7 +1,7 @@
 {
 	"name": "elementor-icons",
 	"slug": "elementor-icons",
-	"version": "2.4.2",
+	"version": "2.5.0",
 	"author": "Elementor",
 	"homepage": "https://elementor.com/",
 	"devDependencies": {
