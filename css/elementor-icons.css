@@ -18,13 +18,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-@keyframes eicon-animation-spin {
+@keyframes eicon-spin {
   0% {
     transform: rotate(0deg); }
   100% {
     transform: rotate(359deg); } }
 
-.eicon-spin {
+.eicon-animation-spin {
   animation: eicon-spin 2s infinite linear; }
 
 .eicon-elementor:before {
