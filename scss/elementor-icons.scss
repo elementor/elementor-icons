@@ -28,7 +28,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-@keyframes eicon-animation-spin {
+@keyframes eicon-spin {
   0% {
 	transform: rotate(0deg);
   }
@@ -37,7 +37,7 @@
   }
 }
 
-.eicon-spin {
+.eicon-animation-spin {
   animation: eicon-spin 2s infinite linear;
 }
 
