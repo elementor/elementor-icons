@@ -486,6 +486,18 @@
 .eicon-library-import:before {
   content: '\e952'; }
 
+.eicon-insert:before {
+  content: '\e953'; }
+
+.eicon-preview:before {
+  content: '\e954'; }
+
+.eicon-sort-down:before {
+  content: '\e955'; }
+
+.eicon-sort-up:before {
+  content: '\e956'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
