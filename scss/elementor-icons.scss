@@ -28,4 +28,17 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+@keyframes eicon-spin {
+  0% {
+	transform: rotate(0deg);
+  }
+  100% {
+	transform: rotate(359deg);
+  }
+}
+
+.eicon-spin {
+  animation: eicon-spin 2s infinite linear;
+}
+
 @import "_icons";
