@@ -151,7 +151,7 @@
 .eicon-import-export:before { content: '\e949'; }
 .eicon-check-circle:before { content: '\e950'; }
 .eicon-library-save:before { content: '\e951'; }
-.eicon-library-import:before { content: '\e952'; }
+.eicon-library-download:before { content: '\e952'; }
 .eicon-insert:before { content: '\e953'; }
 .eicon-preview:before { content: '\e954'; }
 .eicon-sort-down:before { content: '\e955'; }
@@ -165,6 +165,11 @@
 .eicon-yoast:before { content: '\e963'; }
 .eicon-nerd-chuckle:before { content: '\e964'; }
 .eicon-nerd-wink:before { content: '\e965'; }
+.eicon-comments:before { content: '\e966'; }
+.eicon-download-circle-o:before { content: '\e967'; }
+.eicon-library-upload:before { content: '\e968'; }
+.eicon-save-o:before { content: '\e969'; }
+.eicon-upload-circle-o:before { content: '\e970'; }
 
 //Editor Icons
 .eicon-editor-link:before { content: '\e500'; }
@@ -187,7 +192,6 @@
 .eicon-editor-code:before { content: '\e517'; }
 
 //Alias
-.eicon-floppy-o:before { content: '\e001'; }
-.eicon-times:before { content: '\e002'; }
+.eicon-times:before { content: '\e909'; }
 
 // regex to remove comments: \/\*.*?\*\/
