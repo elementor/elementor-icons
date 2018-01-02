@@ -546,6 +546,18 @@
 .eicon-ellipsis-v:before {
   content: '\e972'; }
 
+.eicon-arrow-left:before {
+  content: '\e973'; }
+
+.eicon-arrow-right:before {
+  content: '\e974'; }
+
+.eicon-arrow-up:before {
+  content: '\e975'; }
+
+.eicon-arrow-down:before {
+  content: '\e976'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
