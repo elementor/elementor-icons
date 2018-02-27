@@ -558,6 +558,9 @@
 .eicon-arrow-down:before {
   content: '\e976'; }
 
+.eicon-play-o:before {
+  content: '\e977'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
