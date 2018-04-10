@@ -13,7 +13,7 @@
 		"autoprefixer": "~6.3.5",
 		"cssnano": "~3.5.2",
 		"grunt-banner": "~0.6.0",
-        "grunt-sass": "~2.0.0",
+		"grunt-sass": "~2.0.0",
 		"matchdep": "~1.0.1"
 	}
 }
