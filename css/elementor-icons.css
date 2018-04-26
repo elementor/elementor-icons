@@ -585,6 +585,12 @@
 .eicon-site-title:before {
   content: '\e985'; }
 
+.eicon-plus-square:before {
+  content: '\e986'; }
+
+.eicon-minus-square:before {
+  content: '\e987'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
