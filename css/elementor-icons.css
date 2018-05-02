@@ -591,6 +591,15 @@
 .eicon-minus-square:before {
   content: '\e987'; }
 
+.eicon-cloud-check:before {
+  content: '\e988'; }
+
+.eicon-drag-n-drop:before {
+  content: '\e989'; }
+
+.eicon-home-heart:before {
+  content: '\e990'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
