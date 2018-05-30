@@ -600,6 +600,9 @@
 .eicon-home-heart:before {
   content: '\e990'; }
 
+.eicon-handle:before {
+  content: '\e991'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
