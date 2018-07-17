@@ -681,6 +681,15 @@
 .eicon-cart-solid:before {
   content: '\e1017'; }
 
+.eicon-exchange:before {
+  content: '\e1018'; }
+
+.eicon-eye:before {
+  content: '\e1019'; }
+
+.eicon-laptop:before {
+  content: '\e1020'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
