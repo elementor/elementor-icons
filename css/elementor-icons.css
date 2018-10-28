@@ -699,6 +699,36 @@
 .eicon-navigator:before {
   content: '\e1023'; }
 
+.eicon-plug:before {
+  content: '\e1024'; }
+
+.eicon-dashboard:before {
+  content: '\e1025'; }
+
+.eicon-font:before {
+  content: '\e1026'; }
+
+.eicon-info:before {
+  content: '\e1027'; }
+
+.eicon-integration:before {
+  content: '\e1028'; }
+
+.eicon-plus-circle:before {
+  content: '\e1029'; }
+
+.eicon-rating:before {
+  content: '\e1030'; }
+
+.eicon-review:before {
+  content: '\e1031'; }
+
+.eicon-tools:before {
+  content: '\e1032'; }
+
+.eicon-loading:before {
+  content: '\e1033'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
