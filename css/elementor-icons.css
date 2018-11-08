@@ -318,7 +318,7 @@
 .eicon-google-maps:before {
   content: '\e896'; }
 
-.eicon-insert-image:before {
+.eicon-image:before {
   content: '\e897'; }
 
 .eicon-photo-library:before {
@@ -728,6 +728,9 @@
 
 .eicon-loading:before {
   content: '\e1033'; }
+
+.eicon-sitemap:before {
+  content: '\e1034'; }
 
 .eicon-editor-link:before {
   content: '\e500'; }
