@@ -732,6 +732,12 @@
 .eicon-sitemap:before {
   content: '\e1034'; }
 
+.eicon-click:before {
+  content: '\e1035'; }
+
+.eicon-clock:before {
+  content: '\e1036'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
