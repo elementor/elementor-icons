@@ -744,6 +744,9 @@
 .eicon-warning:before {
   content: '\e1038'; }
 
+.eicon-flow:before {
+  content: '\e1039'; }
+
 .eicon-editor-link:before {
   content: '\e500'; }
 
