@@ -741,7 +741,7 @@
 .eicon-eye:before {
   content: '\e8ed'; }
 
-.eicon-laptop:before {
+.eicon-device-laptop:before {
   content: '\e8ee'; }
 
 .eicon-collapse:before {
@@ -806,6 +806,9 @@
 
 .eicon-arrow-circle-left:before {
   content: '\e903'; }
+
+.eicon-flash:before {
+  content: '\e904'; }
 
 .eicon-ban:before {
   content: '\e906'; }
@@ -882,9 +885,6 @@
 .eicon-font:before {
   content: '\e920'; }
 
-.eicon-get-pocket:before {
-  content: '\e921'; }
-
 .eicon-heart-o:before {
   content: '\e923'; }
 
@@ -905,9 +905,6 @@
 
 .eicon-long-arrow-right:before {
   content: '\e929'; }
-
-.eicon-mobile:before {
-  content: '\e92a'; }
 
 .eicon-paint-brush:before {
   content: '\e92b'; }
@@ -954,7 +951,7 @@
 .eicon-text-align-right:before {
   content: '\e939'; }
 
-.eicon-times-circle:before {
+.eicon-close-circle:before {
   content: '\e93a'; }
 
 .eicon-trash-o:before {
