@@ -810,6 +810,9 @@
 .eicon-flash:before {
   content: '\e904'; }
 
+.eicon-redo:before {
+  content: '\e905'; }
+
 .eicon-ban:before {
   content: '\e906'; }
 
@@ -842,6 +845,9 @@
 
 .eicon-chevron-double-right:before {
   content: '\e910'; }
+
+.eicon-undo:before {
+  content: '\e911'; }
 
 .eicon-circle-o:before {
   content: '\e913'; }
