@@ -849,6 +849,9 @@
 .eicon-undo:before {
   content: '\e911'; }
 
+.eicon-filter:before {
+  content: '\e912'; }
+
 .eicon-circle-o:before {
   content: '\e913'; }
 
@@ -962,6 +965,9 @@
 
 .eicon-trash-o:before {
   content: '\e93b'; }
+
+.eicon-font-awesome:before {
+  content: '\e93c'; }
 
 .eicon-user-circle-o:before {
   content: '\e93d'; }
