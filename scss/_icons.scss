@@ -110,7 +110,7 @@
 .eicon-text:before { content: '\e86d'; }
 .eicon-anchor:before { content: '\e86e'; }
 .eicon-bullet-list:before { content: '\e86f'; }
-.eicon-coding:before { content: '\e870'; }
+.eicon-code:before { content: '\e870'; }
 .eicon-favorite:before { content: '\e871'; }
 .eicon-google-maps:before { content: '\e872'; }
 .eicon-image:before { content: '\e873'; }
@@ -319,5 +319,13 @@
 .eicon-video-camera:before { content: '\e93e'; }
 .eicon-heart:before { content: '\e93f'; }
 .eicon-wrench:before { content: '\e940'; }
+.eicon-help:before { content: '\e941'; }
+.eicon-help-o:before { content: '\e942'; }
+.eicon-zoom-out-bold:before { content: '\e943'; }
+.eicon-plus-square-o:before { content: '\e944'; }
+.eicon-minus-square-o:before { content: '\e945'; }
+.eicon-minus-circle:before { content: '\e946'; }
+.eicon-minus-circle-o:before { content: '\e947'; }
+.eicon-code-bold:before { content: '\e948'; }
 
 // regex to remove comments: \/\*.*?\*\/
