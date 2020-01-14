@@ -170,7 +170,7 @@
 .eicon-library-save:before { content: '\e8a9'; }
 .eicon-library-download:before { content: '\e8aa'; }
 .eicon-insert:before { content: '\e8ab'; }
-.eicon-preview:before { content: '\e8ac'; }
+.eicon-preview-medium:before { content: '\e8ac'; }
 .eicon-sort-down:before { content: '\e8ad'; }
 .eicon-sort-up:before { content: '\e8ae'; }
 .eicon-heading:before { content: '\e8af'; }
@@ -235,7 +235,7 @@
 .eicon-cart-medium:before { content: '\e8ea'; }
 .eicon-cart-solid:before { content: '\e8eb'; }
 .eicon-exchange:before { content: '\e8ec'; }
-.eicon-eye:before { content: '\e8ed'; }
+.eicon-preview-thin:before { content: '\e8ed'; }
 .eicon-device-laptop:before { content: '\e8ee'; }
 .eicon-collapse:before { content: '\e8ef'; }
 .eicon-expand:before { content: '\e8f0'; }
@@ -343,5 +343,27 @@
 .eicon-instagram-video:before { content: '\e956'; }
 .eicon-instagram-gallery:before { content: '\e957'; }
 .eicon-instagram-likes:before { content: '\e958'; }
+.eicon-facebook:before { content: '\e959'; }
+.eicon-twitter:before { content: '\e95a'; }
+.eicon-pinterest:before { content: '\e95b'; }
+.eicon-frame-expand:before { content: '\e95c'; }
+.eicon-frame-minimize:before { content: '\e95d'; }
+.eicon-archive:before { content: '\e95e'; }
+.eicon-colors-typography:before { content: '\e95f'; }
+.eicon-custom:before { content: '\e960'; }
+.eicon-footer:before { content: '\e961'; }
+.eicon-header:before { content: '\e962'; }
+.eicon-layout-settings:before { content: '\e963'; }
+.eicon-lightbox-expand:before { content: '\e964'; }
+.eicon-error-404:before { content: '\e965'; }
+.eicon-theme-style:before { content: '\e966'; }
+.eicon-search-results:before { content: '\e967'; }
+.eicon-single-post:before { content: '\e968'; }
+.eicon-site-identity:before { content: '\e969'; }
+.eicon-theme-builder:before { content: '\e96a'; }
+.eicon-download-bold:before { content: '\e96b'; }
+.eicon-share-arrow:before { content: '\e96c'; }
+.eicon-global-settings:before { content: '\e96d'; }
+.eicon-user-preferences:before { content: '\e96e'; }
 
 // regex to remove comments: \/\*.*?\*\/
