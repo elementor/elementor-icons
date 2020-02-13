@@ -1130,3 +1130,6 @@
 
 .eicon-lock:before {
   content: '\e96f'; }
+
+.eicon-eye:before {
+  content: '\e8ac'; }
