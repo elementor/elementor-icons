@@ -1146,5 +1146,17 @@
 .eicon-single-product:before {
   content: '\e974'; }
 
+.eicon-disable-trash-o:before {
+  content: '\e975'; }
+
+.eicon-single-page:before {
+  content: '\e976'; }
+
+.eicon-wordpress-light:before {
+  content: '\e977'; }
+
+.eicon-cogs-check:before {
+  content: '\e978'; }
+
 .eicon-eye:before {
   content: '\e8ac'; }
