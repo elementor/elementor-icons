@@ -1158,5 +1158,26 @@
 .eicon-cogs-check:before {
   content: '\e978'; }
 
+.eicon-custom-css:before {
+  content: '\e979'; }
+
+.eicon-elementor-circle:before {
+  content: '\e97a'; }
+
+.eicon-global-colors:before {
+  content: '\e97b'; }
+
+.eicon-globe:before {
+  content: '\e97c'; }
+
+.eicon-typography-1:before {
+  content: '\e97d'; }
+
+.eicon-background:before {
+  content: '\e97e'; }
+
 .eicon-eye:before {
   content: '\e8ac'; }
+
+.eicon-elementor-square {
+  content: '\e97a'; }

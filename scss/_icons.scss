@@ -375,10 +375,18 @@
 .eicon-single-page:before { content: '\e976'; }
 .eicon-wordpress-light:before { content: '\e977'; }
 .eicon-cogs-check:before { content: '\e978'; }
+.eicon-custom-css:before { content: '\e979'; }
+.eicon-elementor-circle:before { content: '\e97a'; }
+.eicon-global-colors:before { content: '\e97b'; }
+.eicon-globe:before { content: '\e97c'; }
+.eicon-typography-1:before { content: '\e97d'; }
+.eicon-background:before { content: '\e97e'; }
 
 // Aliases
 
 // since 5.6.2
 .eicon-eye:before { content: '\e8ac'; }
+// since 5.8.1
+.eicon-elementor-square { content: '\e97a'; }
 
 // regex to remove comments: \/\*.*?\*\/
