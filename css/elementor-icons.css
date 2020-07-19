@@ -84,7 +84,7 @@
 .eicon-elementor:before {
   content: '\e812'; }
 
-.eicon-elementor-square:before {
+.eicon-elementor-circle:before {
   content: '\e813'; }
 
 .eicon-pojome:before {
@@ -1161,23 +1161,20 @@
 .eicon-custom-css:before {
   content: '\e979'; }
 
-.eicon-elementor-circle:before {
+.eicon-global-colors:before {
   content: '\e97a'; }
 
-.eicon-global-colors:before {
+.eicon-globe:before {
   content: '\e97b'; }
 
-.eicon-globe:before {
+.eicon-typography-1:before {
   content: '\e97c'; }
 
-.eicon-typography-1:before {
-  content: '\e97d'; }
-
 .eicon-background:before {
-  content: '\e97e'; }
+  content: '\e97d'; }
 
 .eicon-eye:before {
   content: '\e8ac'; }
 
 .eicon-elementor-square {
-  content: '\e97a'; }
+  content: '\e813'; }

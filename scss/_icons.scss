@@ -17,7 +17,7 @@
 .eicon-editor-quote:before { content: '\e810'; }
 .eicon-editor-code:before { content: '\e811'; }
 .eicon-elementor:before { content: '\e812'; }
-.eicon-elementor-square:before { content: '\e813'; }
+.eicon-elementor-circle:before { content: '\e813'; }
 .eicon-pojome:before { content: '\e814'; }
 .eicon-plus:before { content: '\e815'; }
 .eicon-menu-bar:before { content: '\e816'; }
@@ -376,17 +376,16 @@
 .eicon-wordpress-light:before { content: '\e977'; }
 .eicon-cogs-check:before { content: '\e978'; }
 .eicon-custom-css:before { content: '\e979'; }
-.eicon-elementor-circle:before { content: '\e97a'; }
-.eicon-global-colors:before { content: '\e97b'; }
-.eicon-globe:before { content: '\e97c'; }
-.eicon-typography-1:before { content: '\e97d'; }
-.eicon-background:before { content: '\e97e'; }
+.eicon-global-colors:before { content: '\e97a'; }
+.eicon-globe:before { content: '\e97b'; }
+.eicon-typography-1:before { content: '\e97c'; }
+.eicon-background:before { content: '\e97d'; }
 
 // Aliases
 
 // since 5.6.2
 .eicon-eye:before { content: '\e8ac'; }
 // since 5.8.1
-.eicon-elementor-square { content: '\e97a'; }
+.eicon-elementor-square { content: '\e813'; }
 
 // regex to remove comments: \/\*.*?\*\/
