@@ -1203,6 +1203,18 @@
 .eicon-kit-upload-alt:before {
   content: '\e987'; }
 
+.eicon-hotspot:before {
+  content: '\e988'; }
+
+.eicon-paypal-button:before {
+  content: '\e989'; }
+
+.eicon-shape:before {
+  content: '\e98a'; }
+
+.eicon-wordart:before {
+  content: '\e98b'; }
+
 .eicon-eye:before {
   content: '\e8ac'; }
 
