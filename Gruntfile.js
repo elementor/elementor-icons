@@ -1,5 +1,6 @@
 const fs = require( 'fs' );
 const path = require( 'path' );
+const sass = require( 'node-sass' );
 
 module.exports = function( grunt ) {
 	'use strict';
@@ -16,6 +17,9 @@ module.exports = function( grunt ) {
 				'<%= grunt.template.today("dd-mm-yyyy") %> */',
 
 		sass: {
+			options: {
+				implementation: sass,
+			},
 			dist: {
                 options: {
                     sourcemap: 'none'

@@ -1338,6 +1338,12 @@
 .eicon-inner-container:before {
   content: '\e9b4'; }
 
+.eicon-warning-full:before {
+  content: '\e9b5'; }
+
+.eicon-exit:before {
+  content: '\e9b6'; }
+
 .eicon-eye:before {
   content: '\e8ac'; }
 
