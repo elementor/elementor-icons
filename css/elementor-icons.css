@@ -1344,6 +1344,18 @@
 .eicon-exit:before {
   content: '\e9b6'; }
 
+.eicon-loop-builder:before {
+  content: '\e9b7'; }
+
+.eicon-notes:before {
+  content: '\e9b8'; }
+
+.eicon-read:before {
+  content: '\e9b9'; }
+
+.eicon-unread:before {
+  content: '\e9ba'; }
+
 .eicon-eye:before {
   content: '\e8ac'; }
 
