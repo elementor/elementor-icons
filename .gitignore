@@ -10,5 +10,8 @@ composer.lock
 Thumbs.db
 yarn.lock
 
+# Generated code
+css
+
 *.log
 *.map
