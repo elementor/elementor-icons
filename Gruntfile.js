@@ -16,24 +16,6 @@ module.exports = function( grunt ) {
 		banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
 				'<%= grunt.template.today("dd-mm-yyyy") %> */',
 
-		sass: {
-			options: {
-				implementation: sass,
-			},
-			dist: {
-                options: {
-                    sourcemap: 'none'
-                },
-				files: [ {
-					expand: true,
-					cwd: 'scss',
-					src: '*.scss',
-					dest: 'css',
-					ext: '.css'
-				} ]
-			}
-		},
-
 		usebanner: {
 			dist: {
 				options: {
@@ -117,7 +99,6 @@ module.exports = function( grunt ) {
 	] );
 
 	grunt.registerTask( 'styles', [
-		'sass',
 		'postcss',
 		'usebanner'
 	] );
