@@ -4,11 +4,18 @@
 	"version": "5.16.0",
 	"author": "Elementor",
 	"homepage": "https://elementor.com/",
+	"engines": {
+        "node": ">=16.0.0"
+    },
+	"files": [
+        "css/**/*"
+    ],
 	"scripts": {
 		"build": "npm run sass && npm run postcss && npm run generate-svg-icons-json",
 		"generate-svg-icons-json": "node scripts/svgIconsJsonGenerator.mjs",
 		"postcss": "node scripts/postcss.mjs",
-		"sass": "node scripts/sass.mjs"
+		"sass": "node scripts/sass.mjs",
+		"prepare": "npm run build"
 	},
 	"devDependencies": {
 		"cssnano": "^5.1.12",

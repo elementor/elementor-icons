@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  pull_request:
+    types: [ closed ]
+
+jobs:
+  release:
+    if: github.event.pull_request.merged == true && github.base_ref == 'master' && !contains(github.event.pull_request.labels.*.name, 'skip release')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Get Latest Tag
+        run: echo "LATEST_TAG=$(git tag '--sort=version:refname'| tail -1 | awk '{ print } END { if (!NR) print "0.0.0" }')" >> $GITHUB_ENV
+      - name: Increment Tag
+        uses: actions-ecosystem/action-bump-semver@v1
+        id: bump-semver
+        with:
+          current_version: ${{ env.LATEST_TAG }}
+          level: patch
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.CLOUD_DEVOPS_TOKEN }}
+        with:
+          tag_name: ${{ steps.bump-semver.outputs.new_version }}
+          release_name: "${{ steps.bump-semver.outputs.new_version }}: ${{ github.event.pull_request.title }}"
+          draft: false
+          prerelease: false
