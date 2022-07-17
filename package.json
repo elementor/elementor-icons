@@ -6,9 +6,9 @@
 	"homepage": "https://elementor.com/",
 	"scripts": {
 		"build": "npm run sass && npm run postcss && npm run generate-svg-icons-json",
-		"generate-svg-icons-json": "node scripts/svgIconsJsonGenerator.js",
-		"postcss": "node scripts/postcss.js",
-		"sass": "node scripts/sass.js"
+		"generate-svg-icons-json": "node scripts/svgIconsJsonGenerator.mjs",
+		"postcss": "node scripts/postcss.mjs",
+		"sass": "node scripts/sass.mjs"
 	},
 	"devDependencies": {
 		"cssnano": "^5.1.12",
