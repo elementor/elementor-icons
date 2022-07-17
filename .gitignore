@@ -12,6 +12,7 @@ yarn.lock
 
 # Generated code
 css
+eicons.json
 
 *.log
 *.map
