@@ -5,8 +5,6 @@ const sass = require( 'node-sass' );
 module.exports = function( grunt ) {
 	'use strict';
 
-	var pkgInfo = grunt.file.readJSON( 'package.json' );
-
 	require( 'matchdep' ).filterDev( 'grunt-*' ).forEach( grunt.loadNpmTasks );
 
 	// Project configuration
@@ -26,39 +24,6 @@ module.exports = function( grunt ) {
 						'css/*.min.css'
 					]
 				}
-			}
-		},
-
-		postcss: {
-			dev: {
-				options: {
-					processors: [
-						require( 'autoprefixer' )( {
-							browsers: 'last 2 versions'
-						} )
-					]
-				},
-				files: [ {
-					src: [
-						'css/*.css',
-						'!css/*.min.css'
-					]
-				} ]
-			},
-			minify: {
-				options: {
-					processors: [
-						require( 'cssnano' )()
-					]
-				},
-				files: [ {
-					expand: true,
-					src: [
-						'css/*.css',
-						'!css/*.min.css'
-					],
-					ext: '.min.css'
-				} ]
 			}
 		},
 
@@ -99,7 +64,6 @@ module.exports = function( grunt ) {
 	] );
 
 	grunt.registerTask( 'styles', [
-		'postcss',
 		'usebanner'
 	] );
 };

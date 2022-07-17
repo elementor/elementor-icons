@@ -5,7 +5,8 @@
 	"author": "Elementor",
 	"homepage": "https://elementor.com/",
 	"scripts": {
-		"build": "npm run sass && npx grunt",
+		"build": "npm run sass && npm run postcss && npx grunt",
+		"postcss": "node scripts/postcss.js",
 		"sass": "node scripts/sass.js"
 	},
 	"devDependencies": {
@@ -16,8 +17,8 @@
 		"grunt-cli": "^1.4.3",
 		"grunt-contrib-uglify": "~1.0.1",
 		"grunt-contrib-watch": "^1.0.0",
-		"grunt-postcss": "~0.8.0",
 		"matchdep": "~1.0.1",
-		"node-sass": "^7.0.1"
+		"node-sass": "^7.0.1",
+		"postcss": "5.2.17"
 	}
 }
