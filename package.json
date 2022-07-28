@@ -5,20 +5,23 @@
 	"author": "Elementor",
 	"homepage": "https://elementor.com/",
 	"engines": {
-        "node": ">=16.0.0"
-    },
+		"node": ">=16.0.0"
+	},
 	"files": [
-        "css/**/*"
-    ],
+		"css/**/*"
+	],
 	"scripts": {
 		"build": "npm run sass && npm run postcss && npm run generate-svg-icons-json",
 		"generate-svg-icons-json": "node scripts/svgIconsJsonGenerator.mjs",
 		"postcss": "node scripts/postcss.mjs",
 		"sass": "node scripts/sass.mjs",
-		"prepare": "npm run build"
+		"prepare": "npm run build",
+		"lint": "eslint . --ext js,mjs"
 	},
 	"devDependencies": {
+		"@wordpress/eslint-plugin": "^12.8.0",
 		"cssnano": "^5.1.12",
+		"eslint": "^8.20.0",
 		"postcss": "^8.4.14",
 		"sass": "^1.53.0"
 	}
