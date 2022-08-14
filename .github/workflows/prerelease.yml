@@ -25,7 +25,7 @@ jobs:
                 pull_number: context.payload.issue.number
               }).then( (pr) => { return pr.data.head.ref })
       - name: React to comment
-        uses: actions/github-script@v4
+        uses: actions/github-script@v6
         with:
           script: |
             const {owner, repo} = context.issue
