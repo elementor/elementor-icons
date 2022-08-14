@@ -1,6 +1,6 @@
 ### Elementor Icons ###
 
-Repo for [Elementor](https://github.com/pojome/elementor) Icons
+Repo for [Elementor](https://github.com/elementor/elementor) Icons
 
 See it in action: [Icons Demo](https://elementor.github.io/elementor-icons/)
 
