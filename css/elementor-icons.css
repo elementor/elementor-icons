@@ -1356,6 +1356,9 @@
 .eicon-unread:before {
   content: '\e9ba'; }
 
+.eicon-carousel-loop:before {
+  content: '\e9bb'; }
+
 .eicon-eye:before {
   content: '\e8ac'; }
 
