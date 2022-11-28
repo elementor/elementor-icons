@@ -15,6 +15,6 @@
 		"grunt-postcss": "~0.8.0",
 		"grunt-sass": "^3.1.0",
 		"matchdep": "~1.0.1",
-		"node-sass": "^7.0.1"
+		"node-sass": "^7.0.3"
 	}
 }
