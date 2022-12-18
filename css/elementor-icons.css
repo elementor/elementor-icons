@@ -1359,6 +1359,9 @@
 .eicon-carousel-loop:before {
   content: '\e9bb'; }
 
+.eicon-mega-menu:before {
+  content: '\eb78'; }
+
 .eicon-eye:before {
   content: '\e8ac'; }
 
