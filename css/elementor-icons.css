@@ -1815,6 +1815,10 @@
   content: "\e9bd";
 }
 
+.eicon-ai:before {
+  content: "\e9be";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
