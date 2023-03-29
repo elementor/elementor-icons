@@ -1,3 +1,7 @@
+const fs = require( 'fs' );
+const path = require( 'path' );
+const sass = require( 'node-sass' );
+
 module.exports = function( grunt ) {
 	'use strict';
 
@@ -13,6 +17,9 @@ module.exports = function( grunt ) {
 				'<%= grunt.template.today("dd-mm-yyyy") %> */',
 
 		sass: {
+			options: {
+				implementation: sass,
+			},
 			dist: {
                 options: {
                     sourcemap: 'none'
@@ -83,9 +90,30 @@ module.exports = function( grunt ) {
 		}
 	} );
 
+	// Generating a JSON file that holds the icons SVG data, with each icon name as a key.
+	grunt.registerTask( 'generate-svg-icons-json', () => {
+		const rootPath = path.resolve( __dirname, './' ),
+			svgIconsJsonPath = path.join( rootPath, 'eicons.json' ),
+			configJsonPath = path.join( rootPath, 'config.json' ),
+			configJsonContent = JSON.parse( fs.readFileSync( configJsonPath ) ),
+			svgIconsJsonContent = {};
+
+		configJsonContent.glyphs.forEach( ( obj ) => {
+			// Currently there are no 'height' values in the config file.
+			if ( ! obj.svg.height ) {
+				obj.svg.height = obj.svg.width;
+			}
+
+			svgIconsJsonContent[ obj.css ] = obj.svg;
+		} );
+
+		fs.writeFileSync( svgIconsJsonPath, JSON.stringify( svgIconsJsonContent ) );
+	} );
+
 	// Default task(s).
 	grunt.registerTask( 'default', [
-		'styles'
+		'styles',
+		'generate-svg-icons-json'
 	] );
 
 	grunt.registerTask( 'styles', [

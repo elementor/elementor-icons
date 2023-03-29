@@ -8,6 +8,7 @@ composer.lock
 .DS_Store
 .project
 Thumbs.db
+yarn.lock
 
 *.log
 *.map
