@@ -1819,6 +1819,10 @@
   content: "\e9be";
 }
 
+.eicon-taxonomy-filter:before {
+  content: "\eb7d";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
