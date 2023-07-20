@@ -1823,6 +1823,10 @@
   content: "\eb7d";
 }
 
+.eicon-container-grid:before {
+  content: "\e9c0";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
