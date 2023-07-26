@@ -1824,7 +1824,11 @@
 }
 
 .eicon-container-grid:before {
+<<<<<<< HEAD
   content: "\eb81";
+=======
+  content: "\e9c0";
+>>>>>>> e2c294b22a7146d6659fddb77517cacc0691fad4
 }
 
 .eicon-eye:before {
