@@ -1831,6 +1831,10 @@
   content: "\e9c1";
 }
 
+.eicon-advanced:before {
+  content: "\eb84";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
