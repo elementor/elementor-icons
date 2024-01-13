@@ -1,8 +1,6 @@
 # Elementor Icons
 
-Repo for [Elementor](https://github.com/pojome/elementor) Icons
-
-See it in action: [Icons Demo](https://elementor.github.io/elementor-icons/)
+[Elementor Icons](https://elementor.github.io/elementor-icons/) is an icon library used by [Elementor](https://github.com/elementor/elementor) site builder.
 
 ## Copyright
 
