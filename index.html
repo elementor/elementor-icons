@@ -3,16 +3,18 @@
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elementor Icons (eicons)</title>
 <meta name="description" content="Elementor Icons is an icon library used by Elementor site builder.">
 <style>
 @font-face {
 	font-family: 'eicons';
-	src: url('./fonts/eicons.eot?42232160');
-	src: url('./fonts/eicons.eot?42232160#iefix') format('embedded-opentype'),
-	url('./fonts/eicons.woff?42232160') format('woff'),
-	url('./fonts/eicons.ttf?42232160') format('truetype'),
-	url('./fonts/eicons.svg?42232160#eicons') format('svg');
+	src:
+		url('./fonts/eicons.woff2?42232160') format('woff2'),
+		url('./fonts/eicons.woff?42232160') format('woff'),
+		url('./fonts/eicons.ttf?42232160') format('truetype'),
+		url('./fonts/eicons.svg?42232160#eicons') format('svg'),
+		url('./fonts/eicons.eot?42232160') format('embedded-opentype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -50,6 +52,7 @@ body {
 #footer {
 	padding: 40px 10px;
 	border-block-start: 1px solid #ddd;
+	/* background-color: #ffe1f9; */
 	text-align: center;
 }
 h1 {
@@ -58,7 +61,7 @@ h1 {
 	font-family: inherit;
 	font-weight: bold;
 	line-height: 1;
-	color: inherit;
+	color: #92003B;
 }
 h1 small {
 	font-size: 24px;
@@ -67,7 +70,7 @@ h1 small {
 	color: #999;
 }
 a {
-	color: #08c;
+	color: #92003B;
 }
 .switch {
 	display: flex;
@@ -99,7 +102,7 @@ a {
 	transition: transform 0.3s;
 }
 #view:checked + label {
-	background-color: #08c;
+	background-color: #92003B;
 }
 #view:checked + label::before {
 	transform: translateX(20px);
@@ -137,7 +140,7 @@ a {
 	-moz-osx-font-smoothing: grayscale;
 }
 #main .icon-wrapper:where(:hover, :focus, :target) {
-	outline: 2px solid #08c;
+	outline: 2px solid #92003B;
 }
 #main .icon-wrapper :where(.icon-element, .icon-name, .icon-code) {
 	transition-duration: 300ms;
@@ -203,7 +206,7 @@ a {
 	transform: translateY(10px);
 }
 #main.grid .icon-wrapper:where(:hover, :focus, :target) {
-	background-color: #f1f3f4;
+	background-color: #FFE1F966;
 	transition-duration: 300ms;
 }
 #main.grid .icon-wrapper:where(:hover, :focus, :target) .icon-element {
