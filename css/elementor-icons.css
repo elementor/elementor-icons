@@ -1835,6 +1835,10 @@
   content: "\eb84";
 }
 
+.eicon-notification:before {
+  content: "\e9c3";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
