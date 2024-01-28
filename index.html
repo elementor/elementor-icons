@@ -18,12 +18,34 @@
 	font-weight: normal;
 	font-style: normal;
 }
+body:has( #main.light ) {
+	--header-background-color: #ffffffee;
+	--header-heading-color: #92003B;
+	--header-subheading-color: #999999;
+	--header-switcher-color: #999999;
+	--body-text-color: #000000;
+	--body-accent-color: #92003B;
+	--body-background-color: #ffffff;
+	--content-separator-color: #dddddd;
+	--icon-hover-color: #FFE1F966;
+}
+body:has( #main.dark ) {
+	--header-background-color: #333333;
+	--header-heading-color: #ff7be5;
+	--header-subheading-color: #999999;
+	--header-switcher-color: #999999;
+	--body-text-color: #ffffff;
+	--body-accent-color: #ff7be5;
+	--body-background-color: #333333;
+	--content-separator-color: #666666;
+	--icon-hover-color: #66666666;
+}
 body {
 	margin: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	color: #333;
-	background-color: #fff;
+	color: var(--body-text-color);
+	background-color: var(--body-background-color);
 }
 .container {
 	max-width: 1200px;
@@ -31,16 +53,18 @@ body {
 }
 #header {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	flex-direction: var(--header-fex-direction, row);
+	justify-content: var(--header-justify-content, space-between);
+	align-items: var(--header-align-items, center);
+	gap: 2px;
 
 	position: fixed;
 	inset: 0 0 auto;
 	z-index: 1;
 
 	padding: 5px 10px;
-	background-color: #ffffffee;
-	border-block-end: 1px solid #ddd;
+	background-color: var(--header-background-color);
+	border-block-end: 1px solid var(--content-separator-color);
 }
 #main {
 	display: grid;
@@ -51,7 +75,7 @@ body {
 }
 #footer {
 	padding: 40px 10px;
-	border-block-start: 1px solid #ddd;
+	border-block-start: 1px solid var(--content-separator-color);
 	text-align: center;
 }
 h1 {
@@ -60,16 +84,19 @@ h1 {
 	font-family: inherit;
 	font-weight: bold;
 	line-height: 1;
-	color: #92003B;
+	color: var(--header-heading-color);
 }
 h1 small {
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 1;
-	color: #999;
+	color: var(--header-subheading-color);
 }
 a {
-	color: #92003B;
+	color: var(--body-accent-color);
+}
+button {
+	color: var(--body-text-color);
 }
 .switch {
 	display: flex;
@@ -77,34 +104,39 @@ a {
 	gap: 10px;
 	user-select: none;
 }
-#view {
+.switch input {
 	display: none;
 }
-#view + label {
+.switch input + label {
 	display: inline-block;
 	width: 40px;
 	height: 20px;
-	background-color: #ccc;
+	background-color: var(--header-switcher-color);
 	border-radius: 10px;
 	position: relative;
 	cursor: pointer;
 }
-#view + label::before {
+.switch input + label::before {
 	content: "";
 	position: absolute;
 	top: 2px;
 	left: 2px;
 	width: 16px;
 	height: 16px;
-	background-color: white;
+	background-color: var(--body-background-color);
 	border-radius: 50%;
 	transition: transform 0.3s;
 }
-#view:checked + label {
-	background-color: #92003B;
+.switch input:checked + label {
+	background-color: var(--body-accent-color);
 }
-#view:checked + label::before {
+.switch input:checked + label::before {
 	transform: translateX(20px);
+}
+search {
+	display: flex;
+	align-items: center;
+	gap: 50px;
 }
 /* Icon */
 #main .icon-wrapper {
@@ -138,7 +170,8 @@ a {
 	-moz-osx-font-smoothing: grayscale;
 }
 #main .icon-wrapper:where(:hover, :focus, :target) {
-	outline: 2px solid #92003B;
+	background-color: var(--icon-hover-color);
+	outline: 2px solid var(--body-accent-color);
 }
 #main .icon-wrapper :where(.icon-element, .icon-name, .icon-code) {
 	transition-duration: 300ms;
@@ -209,7 +242,6 @@ a {
 	transform: translateY(10px);
 }
 #main.grid .icon-wrapper:where(:hover, :focus, :target) {
-	background-color: #FFE1F966;
 	transition-duration: 300ms;
 }
 #main.grid .icon-wrapper:where(:hover, :focus, :target) .icon-element {
@@ -234,6 +266,10 @@ a {
 	}
 }
 @media (max-width: 768px) {
+	#header {
+		--header-fex-direction: column;
+		--header-align-items: start;
+	}
 	#main.list {
 		--displayed-items: 2;
 	}
@@ -248,18 +284,13 @@ a {
 	#main.grid {
 		--displayed-items: 2;
 	}
-	#header {
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: start;
-	}
 }
 </style>
 <script>
-function toggleView() {
+function toggleClasses(class1, class2) {
 	const mainElement = document.getElementById('main');
-	mainElement.classList.toggle('grid');
-	mainElement.classList.toggle('list');
+	mainElement.classList.toggle(class1);
+	mainElement.classList.toggle(class2);
 }
 </script>
 
@@ -271,14 +302,20 @@ function toggleView() {
 	<search title="Filter Icons">
 		<div class="switch">
 			List
-			<input type="checkbox" id="view" onclick="toggleView()" />
+			<input type="checkbox" id="view" onclick="toggleClasses('list', 'grid')" />
 			<label for="view"></label>
 			Grid
 		</div>
-	<search name="filter">
+		<div class="switch">
+			Light
+			<input type="checkbox" id="theme" onclick="toggleClasses('light', 'dark')" />
+			<label for="theme"></label>
+			Dark
+		</div>
+	</search>
 </header>
 
-<main class="container list" id="main">
+<main class="container list light" id="main">
 	<button type="button" class="icon-wrapper">
 		<i class="icon-element eicon-elementor">&#xe812;</i>
 		<span class="icon-name">eicon-elementor</span>
