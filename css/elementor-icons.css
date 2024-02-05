@@ -1839,6 +1839,14 @@
   content: "\e9c3";
 }
 
+.eicon-light-mode:before {
+  content: "\e9c4";
+}
+
+.eicon-dark-mode:before {
+  content: "\e9c5";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
