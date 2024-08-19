@@ -1851,14 +1851,18 @@
   content: "\e9c6";
 }
 
+.eicon-off-canvas:before {
+  content: "\e9c7";
+}
+
+.eicon-speakerphone:before {
+  content: "\e9c9";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
 
 .eicon-elementor-square:before {
   content: "\e813";
-}
-
-.eicon-off-canvas:before {
-  content: "\e9c7";
 }
