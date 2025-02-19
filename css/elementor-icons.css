@@ -1836,7 +1836,7 @@
 }
 
 .eicon-div-block:before {
-  content: "\eb95";
+  content: "\eb9b";
 }
 
 .eicon-notification:before {
@@ -1877,6 +1877,42 @@
 
 .eicon-ehp-zigzag:before {
   content: "\e9cc";
+}
+
+.eicon-e-button:before {
+  content: "\e9ce";
+}
+
+.eicon-flexbox:before {
+  content: "\e9d0";
+}
+
+.eicon-paragraph:before {
+  content: "\e9d1";
+}
+
+.eicon-icon:before {
+  content: "\e9d2";
+}
+
+.eicon-e-image:before {
+  content: "\e9d3";
+}
+
+.eicon-video:before {
+  content: "\e9d4";
+}
+
+.eicon-svg:before {
+  content: "\e9d5";
+}
+
+.eicon-e-divider:before {
+  content: "\e9d6";
+}
+
+.eicon-e-heading:before {
+  content: "\e9d7";
 }
 
 .eicon-eye:before {
