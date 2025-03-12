@@ -1915,6 +1915,10 @@
   content: "\e9d7";
 }
 
+.eicon-atomic:before {
+  content: "\ebae";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
