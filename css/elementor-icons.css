@@ -507,6 +507,10 @@
   content: "\e876";
 }
 
+.eicon-youtube-atom:before {
+  content: "\e9e9";
+}
+
 .eicon-flip-box:before {
   content: "\e877";
 }
