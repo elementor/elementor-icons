@@ -1987,6 +1987,10 @@
   content: "\e9e7";
 }
 
+.eicon-e-youtube:before {
+  content: "\e9e8";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
