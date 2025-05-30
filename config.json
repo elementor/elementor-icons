@@ -6839,9 +6839,9 @@
       ]
     },
     {
-      "uid": "6acebc0a6805d59a1caa01da21ad4aab",
-      "css": "youtube-atom",
-      "code": 59881,
+      "uid": "fcea2095e95341d81b82db5d4aab0363",
+      "css": "e-youtube",
+      "code": 59880,
       "src": "custom_icons",
       "selected": true,
       "svg": {
@@ -6849,7 +6849,7 @@
         "width": 1000
       },
       "search": [
-        "youtube-atom"
+        "e-youtube"
       ]
     }
   ]

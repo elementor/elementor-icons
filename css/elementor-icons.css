@@ -507,10 +507,6 @@
   content: "\e876";
 }
 
-.eicon-youtube-atom:before {
-  content: "\e9e9";
-}
-
 .eicon-flip-box:before {
   content: "\e877";
 }
@@ -1985,6 +1981,10 @@
 
 .eicon-lock-outline:before {
   content: "\e9e7";
+}
+
+.eicon-e-youtube:before {
+  content: "\e9e8";
 }
 
 .eicon-eye:before {
