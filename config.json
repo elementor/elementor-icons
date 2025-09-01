@@ -6853,8 +6853,8 @@
       ]
     },
     {
-      "uid": "1c53379c60bf4f25a6f835f0338642fc",
-      "css": "eicon-contact",
+      "uid": "d3d315d3be28b85aba392187e49d1636",
+      "css": "contact",
       "code": 60370,
       "src": "custom_icons",
       "selected": true,
@@ -6863,7 +6863,7 @@
         "width": 1000
       },
       "search": [
-        "eicon-contact"
+        "contact"
       ]
     }
   ]
