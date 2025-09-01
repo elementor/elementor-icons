@@ -1987,6 +1987,10 @@
   content: "\e9e8";
 }
 
+.eicon-contact:before {
+  content: "\ebd2";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
