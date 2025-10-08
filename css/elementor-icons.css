@@ -1991,6 +1991,22 @@
   content: "\ebd2";
 }
 
+.eicon-layout:before {
+  content: "\ebd8";
+}
+
+.eicon-components:before {
+  content: "\ebd9";
+}
+
+.eicon-tab-content:before {
+  content: "\ebda";
+}
+
+.eicon-tab-menu:before {
+  content: "\ebdb";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
