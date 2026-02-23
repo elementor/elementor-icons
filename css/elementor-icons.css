@@ -2027,6 +2027,18 @@
   content: "\e9f2";
 }
 
+.eicon-atomic-select:before {
+  content: "\e9f3";
+}
+
+.eicon-atomic-checkbox:before {
+  content: "\e9f4";
+}
+
+.eicon-atomic-radiobutton:before {
+  content: "\e9f5";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
