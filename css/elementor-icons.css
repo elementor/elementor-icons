@@ -2039,6 +2039,18 @@
   content: "\e9f5";
 }
 
+.eicon-atomic-file-upload:before {
+  content: "\ebe9";
+}
+
+.eicon-atomic-time-picker:before {
+  content: "\ebea";
+}
+
+.eicon-atomic-date-picker:before {
+  content: "\ebeb";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
