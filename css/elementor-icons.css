@@ -2051,6 +2051,10 @@
   content: "\ebeb";
 }
 
+.eicon-upgrade-crown-full:before {
+  content: "\ef03";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
