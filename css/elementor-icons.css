@@ -2072,11 +2072,11 @@
 }
 
 .eicon-loop-item:before {
-  content: "\ebfe";
+  content: "\ec00";
 }
 
 .eicon-loop-widget:before {
-  content: "\ebff";
+  content: "\ec01";
 }
 
 .eicon-eye:before {
