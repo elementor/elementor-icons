@@ -2079,6 +2079,10 @@
   content: "\ec01";
 }
 
+.eicon-x-twitter:before {
+  content: "\ef04";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
