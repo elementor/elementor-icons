@@ -2083,6 +2083,10 @@
   content: "\ef04";
 }
 
+.eicon-background-video:before {
+  content: "\ea01";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
