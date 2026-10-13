@@ -2087,6 +2087,10 @@
   content: "\ea01";
 }
 
+.eicon-atomic-form-hidden:before {
+  content: "\e9c0";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
