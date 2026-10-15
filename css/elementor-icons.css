@@ -2091,6 +2091,10 @@
   content: "\e9c0";
 }
 
+.eicon-atomic-form-honeypot:before {
+  content: "\ea03";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
