@@ -2095,6 +2095,10 @@
   content: "\ea03";
 }
 
+.eicon-atomic-form-recaptcha:before {
+  content: "\ebec";
+}
+
 .eicon-eye:before {
   content: "\e8ac";
 }
